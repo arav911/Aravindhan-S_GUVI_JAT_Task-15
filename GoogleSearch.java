@@ -18,9 +18,11 @@ public class GoogleSearch {
 		
 //		Launch the chrome browser and redirect to it to the specified URL
 		driver.get("https://www.google.com/");
-		
+
+//		finding the Search Box element and sending input values
 		driver.findElement(By.name("q")).sendKeys("Selenium Browser Driver");
-		
+
+//		finding the Search button element and clicking on it		
 		driver.findElement(By.name("btnK")).click();
 
 	}
